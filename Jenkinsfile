@@ -17,7 +17,7 @@ pipeline {
             steps {
                 withSonarQubeEnv('SonarQube') { // Inject SonarQube environment variables
                     // Run SonarQube Scanner with Maven or Gradle
-                    sh 'mvn sonar:sonar -Dsonar.projectKey=myproject -Dsonar.host.url=http://<SonarQube-Server-URL> -Dsonar.login=<SONAR_TOKEN>'
+                    sh 'mvn sonar:sonar -Dsonar.projectKey=myproject -Dsonar.host.url=http://localhost:9000 -Dsonar.login=sqp_d855881e05fac64ef4fb4d06fd4444e34ba3ea67'
                 }
             }
         }
