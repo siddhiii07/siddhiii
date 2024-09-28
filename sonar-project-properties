@@ -1,5 +1,5 @@
 -Dsonar.projectKey=project2
--Dsonar.projectName="project-name"
+-Dsonar.projectName="sample"
 -Dsonar.sources=src
 -Dsonar.host.url=http://localhost:9000>
 -Dsonar.login=sqp_d855881e05fac64ef4fb4d06fd4444e34ba3ea67
