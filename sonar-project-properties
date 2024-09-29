@@ -1,7 +1,7 @@
--Dsonar.projectKey=project2
--Dsonar.projectName="sample"
--Dsonar.sources=src
--Dsonar.host.url=http://localhost:9000>
--Dsonar.login=sqp_d855881e05fac64ef4fb4d06fd4444e34ba3ea67
-
+sonar.projectKey=new
+sonar.sources=.
+sonar.exclusions=**/node_modules--*,**/*.spec.js
+sonar.tests=.
+sonar.test.inclusions=**/*.spec.js
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
 
